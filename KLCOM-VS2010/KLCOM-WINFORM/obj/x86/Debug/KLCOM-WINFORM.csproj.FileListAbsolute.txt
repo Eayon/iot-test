@@ -1,0 +1,13 @@
+C:\Documents and Settings\LXB\桌面\KLCOM-VS2010\KLCOM-WINFORM\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\LXB\桌面\KLCOM-VS2010\KLCOM-WINFORM\obj\x86\Debug\KLCOM_WINFORM.Form1.resources
+C:\Documents and Settings\LXB\桌面\KLCOM-VS2010\KLCOM-WINFORM\obj\x86\Debug\KLCOM_WINFORM.Properties.Resources.resources
+C:\Documents and Settings\LXB\桌面\KLCOM-VS2010\KLCOM-WINFORM\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\LXB\桌面\KLCOM-VS2010\KLCOM-WINFORM\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\LXB\桌面\KLCOM-VS2010\KLCOM-WINFORM\bin\Debug\KLCOM-WINFORM.exe
+C:\Documents and Settings\LXB\桌面\KLCOM-VS2010\KLCOM-WINFORM\bin\Debug\KLCOM-WINFORM.pdb
+C:\Documents and Settings\LXB\桌面\KLCOM-VS2010\KLCOM-WINFORM\bin\Debug\KLCOM-VS2010.dll
+C:\Documents and Settings\LXB\桌面\KLCOM-VS2010\KLCOM-WINFORM\bin\Debug\KLCOM-VS2010.pdb
+C:\Documents and Settings\LXB\桌面\KLCOM-VS2010\KLCOM-WINFORM\obj\x86\Debug\KLCOM-WINFORM.exe
+C:\Documents and Settings\LXB\桌面\KLCOM-VS2010\KLCOM-WINFORM\obj\x86\Debug\KLCOM-WINFORM.pdb
+C:\Users\Administrator\Desktop\KLCOM-VS2010\KLCOM-WINFORM\obj\x86\Debug\KLCOM-WINFORM.exe
+C:\Users\Administrator\Desktop\KLCOM-VS2010\KLCOM-WINFORM\obj\x86\Debug\KLCOM-WINFORM.pdb

@@ -1,0 +1,5 @@
+C:\Documents and Settings\LXB\桌面\KLCOM-VS2010\KLCOM-CONSOLE\bin\Debug\KLCOM-CONSOLE.exe
+C:\Documents and Settings\LXB\桌面\KLCOM-VS2010\KLCOM-CONSOLE\bin\Debug\KLCOM-CONSOLE.pdb
+C:\Documents and Settings\LXB\桌面\KLCOM-VS2010\KLCOM-CONSOLE\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\LXB\桌面\KLCOM-VS2010\KLCOM-CONSOLE\obj\x86\Debug\KLCOM-CONSOLE.exe
+C:\Documents and Settings\LXB\桌面\KLCOM-VS2010\KLCOM-CONSOLE\obj\x86\Debug\KLCOM-CONSOLE.pdb
