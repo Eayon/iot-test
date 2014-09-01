@@ -6,7 +6,9 @@
 <script type="text/javascript" src="highcharts.js"></script>
  <script type="text/javascript" src="exporting.js"></script>
 <script>
-
+<?php 	
+	$a=10;
+ ?>
 
 $(function () {                                                                     
     $(document).ready(function() {                                                  
@@ -27,10 +29,28 @@ $(function () {
                                                                                     
                         // set up the updating of the chart each second             
                         var series = this.series[0];                                
-                        setInterval(function() {                                    
-                            var x = (new Date()).getTime(), // current time         
-                                y = Math.random();                                  
-                            series.addPoint([x, y], true, true);                    
+                        setInterval(function() { 
+                            var my_data="前台变量";
+                            $.ajax({
+         url: "ajax_php.php",  
+         type: "POST",
+         data:{trans_data:my_data},
+         //dataType: "json",
+         error: function(){  
+             alert('Error loading XML document');  
+         },  
+         success: function(data,status){//如果调用php成功    
+             //alert(unescape(data));//解码，显示汉字
+             var y = unescape(data);
+             var x = (new Date()).getTime();
+             series.addPoint([x,y], true, true); 
+         }
+     });        
+                          //  var x = (new Date()).getTime(), // current time         
+                            //    y = Math.random();   
+
+
+                          // series.addPoint([x,y], true, true);                    
                         }, 1000);                                                   
                     }                                                               
                 }                                                                   
