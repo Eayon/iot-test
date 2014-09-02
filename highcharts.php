@@ -41,9 +41,12 @@ $(function () {
          },  
          success: function(data,status){//如果调用php成功    
              //alert(unescape(data));//解码，显示汉字
-             var y = unescape(data);
-             var x = (new Date()).getTime();
-             series.addPoint([x,y], true, true); 
+             //var y = unescape(data);
+             var x = (new Date()).getTime() //, y =Math.random()*10;
+             var y =data;
+ 
+             series.addPoint([x,Number(y)], true, true); 
+
          }
      });        
                           //  var x = (new Date()).getTime(), // current time         
