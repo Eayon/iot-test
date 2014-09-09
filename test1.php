@@ -9,13 +9,14 @@
          url: "ajax_php.php",  
          type: "POST",
          data:{trans_data:my_data},
-         //dataType: "json",
+         dataType: "json",
          error: function(){  
              alert('Error loading XML document');  
          },  
          success: function(data,status){//如果调用php成功    
              //alert(unescape(data));//解码，显示汉字
-             alert(data);
+
+             alert(data.zd+data.trwd+data.trsd+data.kqwd+data.kqsd+data.eyht);
          }
      });
      
@@ -24,6 +25,6 @@
  </script>
 	</head>
 	<body>
-		
+		<textarea name="txt" clos="20" rows=“20”></textarea>
 	</body>
 </html>
