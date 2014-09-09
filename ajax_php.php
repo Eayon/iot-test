@@ -22,6 +22,10 @@
      echo $json_arr;
      }
      
+/*
+     $arr = array('zd' =>10, 'trsd'=>10,'trwd'=>10,'eyht'=>10,'kqsd'=>10,'kqwd'=>10);
+     $json_arr = json_encode($arr);
+     echo $json_arr;*/
      //echo $data;
      //echo (rand(0,10));
 
