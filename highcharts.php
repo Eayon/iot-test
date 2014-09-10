@@ -6,6 +6,7 @@
 <script type="text/javascript" src="highcharts.js"></script>
  <script type="text/javascript" src="exporting.js"></script>
  <script type="text/javascript" src="demo.js"></script>
+  <link rel="stylesheet" type="text/css"  href="reset.css" />
  <link rel="stylesheet" type="text/css" href="demo.css"/>
 <script>
 function ShowOrHideDiv (id) {
@@ -51,12 +52,12 @@ function ShowOrHideDiv (id) {
 </head>
 <body>
     <div class="header" id="header">
-        <button id="btngz" OnClick='ShowOrHideDiv("container0")'; >照  度</button>
-        <button id="btntrsd" OnClick='ShowOrHideDiv("container1")';>土壤湿度</button>
-        <button id="btntrwd" OnClick='ShowOrHideDiv("container2")';>土壤温度</button>
-        <button id="btneyht" OnClick='ShowOrHideDiv("container3")';>二氧化碳</button>
-        <button id="btnkqsd" OnClick='ShowOrHideDiv("container4")';>空气湿度</button>
-        <button id="btnkqwd" OnClick='ShowOrHideDiv("container5")';>空气温度</button>
+        <input type="button" id="btngz"   class="btn" value="照  度" OnClick='ShowOrHideDiv("container0")';></input>
+        <input type="button" id="btntrsd" class="btn" value="土壤湿度" OnClick='ShowOrHideDiv("container1")';></input>
+        <input type="button" id="btntrwd" class="btn" value="土壤温度" OnClick='ShowOrHideDiv("container2")';></input>
+        <input type="button" id="btneyht" class="btn" value="二氧化碳" OnClick='ShowOrHideDiv("container3")';></input>
+        <input type="button" id="btnkqsd" class="btn" value="空气湿度" OnClick='ShowOrHideDiv("container4")';></input>
+        <input type="button" id="btnkqwd" class="btn" value="空气温度" OnClick='ShowOrHideDiv("container5")';></input>
     </div>
     <div class="col" id="col">
         <div id="container0" name="container" style="min-width: 800px; height: 400px; float: left;display:none"></div>

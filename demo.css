@@ -1,2 +1,5 @@
-.header{margin:0 auto; width: 500px;height: 100px;}
+body{background-color: #808080;}
+.header{margin:0 auto;margin-top: 50px; width: 500px;height: 100px;}
+.header .btn{width: 100px; margin:0 20px; background-color: #666;color: white; border-color: #666;}
 .col{margin: 0 auto;width: 800px;height: 500px;}
+
