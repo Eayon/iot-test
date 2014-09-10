@@ -9,10 +9,25 @@
   <link rel="stylesheet" type="text/css"  href="reset.css" />
  <link rel="stylesheet" type="text/css" href="demo.css"/>
 <script>
+
+ var getElementsByName = function(tag, name){  
+     var returns = document.getElementsByName(name);  
+     if(returns.length > 0) return returns;  
+     returns = new Array();  
+     var e = document.getElementsByTagName(tag);  
+     for(var i = 0; i < e.length; i++){  
+         if(e[i].getAttribute("name") == name){  
+             returns[returns.length] = e[i];  
+         }  
+     }  
+     return returns;  
+ }  
+
 function ShowOrHideDiv (id) {
     // body...
   var cc=document.getElementById(id);
-  var alldiv = document.getElementsByName("container");
+ // var alldiv = document.getElementsByName("container");
+  var alldiv = getElementsByName("div","container");
   var str = cc.id;
   var num = str.substr(str.length-1,1);
   var hea =str.substr(0,9);
@@ -60,7 +75,7 @@ function ShowOrHideDiv (id) {
         <input type="button" id="btnkqwd" class="btn" value="空气温度" OnClick='ShowOrHideDiv("container5")';></input>
     </div>
     <div class="col" id="col">
-        <div id="container0" name="container" style="min-width: 800px; height: 400px; float: left;display:none"></div>
+        <div id="container0" name="container" style="min-width: 800px; height: 400px; float: left;display:block"></div>
         <div id="container1" name="container"  style="min-width: 800px; height: 400px; float: left;display:none"></div>
         <div id="container2" name="container"  style="min-width: 800px; height: 400px; float: left;display:none"></div>
         <div id="container3" name="container"  style="min-width: 800px; height: 400px; float: left;display:none"></div>
